@@ -1,6 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 
 package com.mycompany.mavenproject13;
 
@@ -11,6 +9,8 @@ package com.mycompany.mavenproject13;
 public class Mavenproject13 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+//        Invoking constructor: Car by default on instantiation
+        Car brandNewCar = new Car();
+        brandNewCar.display();
     }
 }
